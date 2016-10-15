@@ -5,8 +5,11 @@ Arduino + RF modul 433Mhz + ORNO OR-GB-405
 # Decode wave
 
 []__[]__ = 00 = 0
+
 [  ]_[  ] = 11 = 1
+
 []__[  ] = 01 = F
+
 
 # explanation code list
 
