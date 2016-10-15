@@ -28,11 +28,7 @@ E OFF: 16766273
 
 # Decode wave
 
-[]___[]__ = 00 = 0
-
-[  ]_[  ] = 11 = 1
-
-[]__[  ] = 01 = F
+https://github.com/tureq80/arduino-RF-433Mhz-ORNO-OR-GB-405/wiki
 
 
 # explanation code list
