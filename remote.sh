@@ -1,5 +1,7 @@
 #!/bin/sh
 
+# For Raspberry pi script On Off switches.
+# The script works together with a library of 433 Utils / RPI utils
 
 # messages clear
 ERR_MSG=""
