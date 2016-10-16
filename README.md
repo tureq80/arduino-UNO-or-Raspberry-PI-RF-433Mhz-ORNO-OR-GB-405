@@ -3,27 +3,27 @@ Arduino + RF modul 433Mhz + ORNO OR-GB-405
 
 # Decimal code list
 
-A ON: 16762196
+A ON: <code>16762196</code>
 
-A OFF: 16762193
+A OFF: <code>16762193</code></code>
 
-B ON: 16765268
+B ON: <code>16765268</code>
 
-B OFF: 16765265
+B OFF: <code>16765265</code>
 
-C ON: 16766036
+C ON: <code>16766036</code>
 
-C OFF: 16766033
+C OFF: <code>16766033</code>
 
-D ON: 16766228
+D ON: <code>16766228</code>
 
-D OFF: 16766225
+D OFF: <code>16766225</code>
 
-E ON: 16766276
+E ON: <code>16766276</code>
 
-E OFF: 16766273
+E OFF: <code>16766273</code>
 
-:)
+have fun :)
 
 
 # Decode wave
