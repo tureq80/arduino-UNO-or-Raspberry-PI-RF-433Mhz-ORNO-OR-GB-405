@@ -1,5 +1,5 @@
-# arduino-RF-433Mhz-ORNO-OR-GB-405
-Arduino + RF modul 433Mhz + ORNO OR-GB-405
+# Arduino Uno or Raspberry pi + RF modul 433Mhz + Remote control ORNO OR-GB-405
+Arduino UNO or Raspberry PI + RF modul 433Mhz + Remote control ORNO OR-GB-405
 
 # Decimal code list
 
