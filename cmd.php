@@ -44,7 +44,7 @@ if (isset($_GET['task'])) {
 
 else if ($_GET['task'] == 'football') {
 
-	shell_exec('sudo /home/pi/mecze.sh');
+	shell_exec('sudo /home/pi/football.sh');
 
     }
 	
