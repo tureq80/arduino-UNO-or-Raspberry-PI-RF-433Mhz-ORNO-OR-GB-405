@@ -2,7 +2,7 @@
   Example for different sending methods
   
   https://github.com/sui77/rc-switch/
-  
+  FOR ARDUINO UNO
 */
 
 #include <RCSwitch.h>
