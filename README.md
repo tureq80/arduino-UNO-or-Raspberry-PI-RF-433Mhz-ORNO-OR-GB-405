@@ -1,7 +1,7 @@
 # Arduino Uno or Raspberry pi + RF modul 433Mhz + Remote control ORNO OR-GB-405
-Arduino UNO or Raspberry PI + RF modul 433Mhz + Remote control ORNO OR-GB-405
+Arduino UNO lub Raspberry PI (mózg) + RF modul 433Mhz (nadajnik 433Mhz jako pilot) + ORNO OR-GB-405 (gniazda na pilota)
 
-# Decimal code list
+# Decimal code list (właściwe kody, które działają z tymi gniazdami)
 
 A ON: <code>16762196</code>
 
@@ -30,12 +30,19 @@ have fun :)
 
 https://github.com/tureq80/arduino-RF-433Mhz-ORNO-OR-GB-405/wiki
 
+Kody podane powyżej to konfiguracja pilota z wszystkimi 5 podniesionymi przełącznikami na odwrocie pilota) Jeśli przesuniesz przełącznik w dół zmieni się kod wysyłany z pilota. Wszystkie podniesione do góry przełączniki oznaczają 11111. Wszystkie przełączniki w dół to FFFFF. 
+
+
+Przykłądowo: Dwa w dół 3 do góry kod bedzie zaczynał się od: FF111 
+
+Odpowiednik dla litery A z przykładu powyżej to: FF1110FFFFF0
+
 
 # explanation code list
 
-A ON  : [11111][0FFFF][F0]
+A ON  : 111110FFFFF0 = [11111] <-przełączniki wszystkie do góry, [0FFFF] <-oznacza literę A, [F0] <-oznacza ON
 
-A OFF: [11111][0FFFF][0F]
+A OFF: 111110FFFF0F = [11111][0FFFF][0F]
 
 B ON  : [11111][F0FFF][F0]
 
